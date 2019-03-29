@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Rivers in Africa </h1>
+    {% for continent in continents %}
+    {% if continent.continent == "Africa" %}
+        <b> Name: {{continent.name}} </b> </br>
+        <b> Continent: {{continent.continent}} </b> </br>
+        <b> Length: {{continent.length}} </b> </br>
+        <hr>
+    {% endif %}
+    {% endfor %}
+    
+ 
+
+</body>
+</html>
