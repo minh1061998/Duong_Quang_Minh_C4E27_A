@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+    <title>Add Bike</title>
+</head>
+<style>
+    div.Bike{
+    margin:60px 400px 60px 350px; 
+    padding: 20px 20px 20px 20px;
+    width:53%;
+    font-size: 20px;
+    line-height:30px;
+    text-align: left;
+    position: relative;
+    background-color:white;
+    }
+    input.input{
+    position: left;
+    width: 250px;
+    left: 250px;
+    font-style: normal;
+    }
+    button{
+        background-color:slateblue;
+        color: white;
+    }
+    label.title{
+        font-weight:bold;
+    }
+   
+</style>
+<body>
+    <div class="Bike">
+    <form  method ="POST">
+        <label class="title">Model</label> <br>
+        <input name = "input_Model" type="text," class="input" value = "e.g. HONDA"> <br>
+
+        <label class="title">Daily fee (VND)</label> <br>
+        <input name = "input_Dailyfee" type="text," class="input" value = "100000"> <br>
+
+        <label class="title">Image</label> <br>
+        <input name = "input_Image" type="text," class="input" value = "e.g. https://hondaxemay.com.vn/"> <br>
+
+        <label class="title">Year</label> <br>
+        <input name = "input_Year" type="text," class="input" value = "e.g. 2003"> <br>
+
+        <button id="button">Summit</button>
+
+    </form>
+</div>
+</body>
+</html>
